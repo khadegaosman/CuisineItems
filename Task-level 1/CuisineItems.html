@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/bootstrap-social-gh-pages/bootstrap-social.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+  <body>
+
+      <div class="my_row row">
+        <div class="col-lg-5 ">
+            <div class="col-lg-3">
+              <img class="img-fluid" src="img/cuisine.png" alt="">
+            </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="row my_row">
+            <button class=" nav-btn" type="button">Bussiness Day </button>
+            <div class=" dropdown">
+              <button class="  nav-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+              </button>
+
+            </div>
+            <button class=" nav-btn" type="button">Orders Queue </button>
+            <button class="  nav-btn" type="button">Admin </button>
+
+          </div>
+        </div>
+      </div>
+      <div class="my_row row second-row">
+        <div class="col-lg-5 left-col">
+          <div class="takeway ">
+
+            <div class="container">
+              <div class="details">
+                  <p class="takeway_p1">Date: 16-07-2018</p>
+                  <p class="takeway_p1">Hour: 12:53:53</p>
+                  <p class="takeway_p1">Minimum Charge: 0.00</p>
+              </div>
+              <div class="takeway_num row my_row  ">
+                <div class="col-lg-6">
+                  <p class="takeaway_p2" id="num">Takeaway #100</p>
+                  <p class="takeaway_p2" id="num2">Cahier: Ahmed Salem</p>
+                </div>
+                <div class="col-lg-6">
+                  <div class="row">
+
+                    <div class="col-lg-10">
+                      <button class="takeway-btn" type="button">Customer Name</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="table container">
+              <p id="table1">Qty</p>
+              <p id="table1">Item</p>
+              <p id="table2">Size</p>
+              <p id="table2">Each</p>
+              <p id="table2">Total</p>
+            </div>
+            <div class="order">
+              <p class="takeway_p1" id="status">No items currently in order</p>
+            </div>
+            <div class="last-block container">
+              <div class="plus">
+                <button type="button" name="button" class="plus1 btn btn-default btn-circle">
+                  <img src="img/icons8-plus-24.png" ><span></span>
+                </button>
+              </div>
+              <div class="flash-block row my_row">
+                <div class="col-lg-3">
+
+                  <button type="button"  class=" btn btn-default btn-circle-bigger">
+                    <img class="flash-img" src="img/icons8-flash-on-96.png" ><span id="flash">Fast cash</span>
+                  </button>
+                </div>
+                <div class="col-lg-3">
+                  <div class="flash-details">
+                    <p class="flash-p1">Discounts: 0.00</p>
+                    <p class="flash-p1">Subcharges: 0.00</p>
+                    <p class="flash-p1">Tax: 0.00</p>
+                  </div>
+
+                </div>
+                <div class="col-lg-6">
+                  <div class="flash-details1">
+                    <p id="flash-p2">Total: 50.00</p>
+                    <p id="flash-p3">Balance due: 50.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row last-btn-block  my_row">
+                <div class="col-lg-3">
+                  <button type="button"  class=" btn btn-default btn-circle-bigger2">
+                    <img class="delete" src="img/icons8-multiply-filled-500 (1).png" ><span id="last-span">Cancel Order</span>
+                  </button>
+
+                </div>
+                <div class="col-lg-3">
+                  <button type="button"  class=" btn btn-default btn-circle-bigger2">
+                    <img class="delete" src="img/icons8-percentage-500.png" ><span id="last-span">Discount Order</span>
+                  </button>
+
+                </div>
+                <div class="col-lg-3">
+                  <button type="button"  class=" btn btn-default btn-circle-bigger2">
+                    <img class="delete" src="img/icons8-clock-96 (1).png" ><span id="last-span">Hold Order</span>
+                  </button>
+
+
+                </div>
+                <div class="col-lg-3">
+                  <button type="button"  class=" btn btn-default btn-circle-bigger2" id="pay">
+                    <img class="delete" src="img/icons8-us-dollar-96.png" ><span id="pay-span">Pay</span>
+                  </button>
+                </div>
+
+
+
+              </div>
+            </div>
+            </div>
+
+        </div>
+        <div class="col-lg-7 right-col">
+          <div class="row my_row search-row">
+            <div class="search">
+              <i class="icon fa fa-search" ></i>
+                <input id="search" type="text" placeholder="Search Item">
+             </div>
+          </div>
+
+          <div class="row my_row food-menue">
+            <div class="btn-group" role="group" aria-label="Basic example">
+
+              <button type="button" class="btn menue-btn" id="radius-left">Food <div class=" arrow-up"></div></button>
+
+              <button type="button" class="btn menue-btn">Beverage</button>
+              <button type="button" class="btn menue-btn">Marchandise</button>
+              <button type="button" class="btn menue-btn">Meal</button>
+              <button type="button" class="btn menue-btn" id="radius-right"><i class="fa fa-bars"></i></button>
+            </div>
+
+          </div>
+          <div class="row my_row food-menue">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn food-btn" id="left">Breads</button>
+              <button type="button" class="btn food-btn">Pastas</button>
+              <button type="button" class="btn food-btn">Pizzas</button>
+              <button type="button" class="btn food-btn" >Soups</button>
+              <button type="button" class="btn food-btn" id="right"><i class="fa fa-bars"></i></button>
+            </div>
+
+          </div>
+          <div class="row my_row container-buttons">
+              <div class="buttons">
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+                <button type="button" class="btn button1-btn" >Pasta</button>
+              </div>
+
+
+
+          </div>
+
+
+
+
+
+        </div><!-- right col -->
+      </div><!--  the whole page -->
+
+
+
+      <script src="js/jquery-3.1.1.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+  </body>
+
+</html>
